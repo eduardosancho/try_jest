@@ -1,0 +1,22 @@
+{
+  "name": "try_jest",
+  "version": "1.0.0",
+  "description": "try tests with jest",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardosancho/try_jest.git"
+  },
+  "author": "eduardosancho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardosancho/try_jest/issues"
+  },
+  "homepage": "https://github.com/eduardosancho/try_jest#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
