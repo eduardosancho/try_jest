@@ -1,22 +1,20 @@
 export default class SimpleCalculator {
     constructor() {
-        this.two = 2;
-        this.five = 5;
     }
 
-    add(num) {
-        return num + this.five;
+    add(num1, num2) {
+        return num1 + num2;
     }
 
-    substract(num) {
-        return num - this.five;
+    substract(num1, num2) {
+        return num1 - num2;
     }
 
-    divide(num) {
-        return num / this.two;
+    divide(num1, num2m) {
+        return num1 / num2;
     }
 
-    multiply(num) {
-        return num * this.two;
+    multiply(num1, num2) {
+        return num1 * num2;
     }
 }
