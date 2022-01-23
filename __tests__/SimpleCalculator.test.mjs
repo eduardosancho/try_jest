@@ -46,3 +46,18 @@ describe('Tests for the divide function', () => {
         expect(division === -7.5).toBeTruthy();
     });
 });
+
+describe('Tests for the multiply function', () => {
+    test('0.333 * 3 = 1', () => {
+        expect(calculator.multiply(0.333, 3)).toBeCloseTo(1);
+    });
+    
+    test('7 * 8 = 56', () => {
+        expect(calculator.multiply(7, 8)).toEqual(56);
+    });
+
+    test('-15 * 3 = -45', () => {
+        const division = calculator.multiply(-15, 3);
+        expect(division === -45).toBeTruthy();
+    });
+});
