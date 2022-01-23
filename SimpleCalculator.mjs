@@ -10,7 +10,7 @@ export default class SimpleCalculator {
         return num1 - num2;
     }
 
-    divide(num1, num2m) {
+    divide(num1, num2) {
         return num1 / num2;
     }
 
