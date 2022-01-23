@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/eduardosancho/try_jest#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
     "jest": "^27.4.7"
   }
 }
