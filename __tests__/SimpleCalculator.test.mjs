@@ -27,7 +27,22 @@ describe('Tests for the substract function', () => {
     });
 
     test('-20 - -1 = -19', () => {
-        const sum = calculator.substract(-20, -1);
-        expect(sum === -19).toBeTruthy();
+        const substraction = calculator.substract(-20, -1);
+        expect(substraction === -19).toBeTruthy();
+    });
+});
+
+describe('Tests for the divide function', () => {
+    test('1 / 2 = 0.5', () => {
+        expect(calculator.divide(1, 2)).toBeCloseTo(0.5);
+    });
+    
+    test('1000 / 4 = 250', () => {
+        expect(calculator.divide(1000, 4)).toEqual(250);
+    });
+
+    test('-15 / 2 = -7.5', () => {
+        const division = calculator.divide(-15, 2);
+        expect(division === -7.5).toBeTruthy();
     });
 });
