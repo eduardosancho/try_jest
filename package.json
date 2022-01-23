@@ -4,7 +4,7 @@
   "description": "try tests with jest",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
