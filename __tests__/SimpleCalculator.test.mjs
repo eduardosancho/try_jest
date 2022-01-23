@@ -1,6 +1,5 @@
 import SimpleCalculator from "../SimpleCalculator";
 
-
 describe('Tests for the add function', () => {
     test('2 + 2 = 4', () => {
         const calculator = new SimpleCalculator();
@@ -17,5 +16,4 @@ describe('Tests for the add function', () => {
         const sum = calculator.add(-5, -1);
         expect(sum === -6).toBeTruthy();
     });
-
 });
