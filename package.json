@@ -4,7 +4,7 @@
   "description": "try tests with jest",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,16 @@
   },
   "homepage": "https://github.com/eduardosancho/try_jest#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
     "jest": "^27.4.7"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
   }
 }
