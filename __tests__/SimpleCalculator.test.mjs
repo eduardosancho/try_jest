@@ -57,7 +57,7 @@ describe('Tests for the multiply function', () => {
     });
 
     test('-15 * 3 = -45', () => {
-        const division = calculator.multiply(-15, 3);
-        expect(division === -45).toBeTruthy();
+        const multiplication = calculator.multiply(-15, 3);
+        expect(multiplication === -45).toBeTruthy();
     });
 });
